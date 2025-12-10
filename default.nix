@@ -59,6 +59,7 @@ in
   tests = import ./tests {
     pkgs = pkgs';
     libSecurix = lib-securix;
+    nixpkgs = sources.nixpkgs;
   };
   shell = pkgs'.mkShell {
     packages = [

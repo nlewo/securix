@@ -441,6 +441,8 @@ rec {
         ../hardware
         # For Secure Boot.
         (import sources.lanzaboote).nixosModules.lanzaboote
+        # FIXME: Build comin with the securix nixpkgs instead of the comin nixpkgs
+        (import sources.comin).nixosModules.comin
         "${sources.disko}/module.nix"
         "${sources.agenix}/modules/age.nix"
         {

@@ -13,6 +13,19 @@
       "url": "https://github.com/ryantm/agenix/archive/fcdea223397448d35d9b31f798479227e80183f6.tar.gz",
       "hash": "1d4m7hsq727q7ndjqmgyl8vkbkqjwps962ygmv2mcc5dbqzgn963"
     },
+    "comin": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nlewo",
+        "repo": "comin"
+      },
+      "branch": "non-flake-support",
+      "submodules": false,
+      "revision": "02586c2e630bd0b3aeb4092e7e13ede6adc95f29",
+      "url": "https://github.com/nlewo/comin/archive/02586c2e630bd0b3aeb4092e7e13ede6adc95f29.tar.gz",
+      "hash": "0rv7q5g0fgx8cry002f2lyl20pccf7w5xz684qyim5cpcgxiln5x"
+    },
     "disko": {
       "type": "GitRelease",
       "repository": {

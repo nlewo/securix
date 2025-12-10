@@ -2,7 +2,12 @@
 #
 # SPDX-License-Identifier: MIT
 
-{ pkgs, libSecurix }:
 {
-  minimal = import ./minimal.nix { inherit pkgs libSecurix; };
+  pkgs,
+  libSecurix,
+  nixpkgs,
+}:
+{
+  minimal = import ./minimal.nix { inherit pkgs libSecurix nixpkgs; };
+  auto-updates = import ./auto-updates.nix { inherit pkgs libSecurix nixpkgs; };
 }
