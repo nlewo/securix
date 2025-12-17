@@ -20,11 +20,11 @@
         "owner": "nlewo",
         "repo": "comin"
       },
-      "branch": "non-flake-support",
+      "branch": "main",
       "submodules": false,
-      "revision": "02586c2e630bd0b3aeb4092e7e13ede6adc95f29",
-      "url": "https://github.com/nlewo/comin/archive/02586c2e630bd0b3aeb4092e7e13ede6adc95f29.tar.gz",
-      "hash": "0rv7q5g0fgx8cry002f2lyl20pccf7w5xz684qyim5cpcgxiln5x"
+      "revision": "8f4e8aa9cd8e6ec7ef3143a05c7235eea0d80a97",
+      "url": "https://github.com/nlewo/comin/archive/8f4e8aa9cd8e6ec7ef3143a05c7235eea0d80a97.tar.gz",
+      "hash": "1fszzrv8c2i1mhvx6dr66zwhy28wh3hs1930jfvsmz5lvlkwlq0q"
     },
     "disko": {
       "type": "GitRelease",
